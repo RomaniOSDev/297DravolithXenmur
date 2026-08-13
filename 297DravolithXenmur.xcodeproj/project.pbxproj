@@ -16,7 +16,6 @@
 		14BD79E3B4B63272B7D9D853 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1471D33911D4AB70725251 /* QuizViewModel.swift */; };
 		1AC2D7C82834724DC63B5FFD /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 33A976FE908BCE89F63BFAB4 /* privacy_policy.md */; };
 		1E8780581E3E7D74C0D7E901 /* AppStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82277790C2B0FE46DE90719D /* AppStorageService.swift */; };
-		1FD5C2AB3D3F185255F17C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8715D3F14B4B7DD6A550FC1D /* Foundation.framework */; };
 		26F2DB625D5096CB3B9343CE /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1670D600C7169ADB60BA1 /* NotificationPermissionManager.swift */; };
 		270FD9C664AA26C3EFAF9E5B /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB26F9005D758308ED3B22A /* UserAgentBuilder.swift */; };
 		2DD1CD067BCBBBE3EADA8827 /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDC022570302F1866C80F4 /* PushNotificationURLRouter.swift */; };
@@ -117,7 +116,7 @@
 		5119A00F2EDC4FF8DF2B288F /* StudyStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudyStats.swift; sourceTree = "<group>"; };
 		58BDC022570302F1866C80F4 /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
 		5CA8A3D2A507D70EC8E059A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5CB718B4FD62FC2B60F3B21C /* LoadingThemeColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingThemeColors.swift; path = LoadingThemeColors.swift; sourceTree = "<group>"; };
+		5CB718B4FD62FC2B60F3B21C /* LoadingThemeColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingThemeColors.swift; sourceTree = "<group>"; };
 		5E58DB993BCDE2AFA27CEEAE /* StudyQuizView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudyQuizView.swift; sourceTree = "<group>"; };
 		601F15293AA0FD037A98E7B2 /* Flashcard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		6DD47623987C3FF50EFEF8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -167,7 +166,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD5C2AB3D3F185255F17C32 /* Foundation.framework in Frameworks */,
 				05F282056EB615254506E094 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,13 +615,15 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ren.dr3v0l3thx3nm9r.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -650,7 +650,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ren.dr3v0l3thx3nm9r;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -677,13 +677,15 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ren.dr3v0l3thx3nm9r.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -832,7 +834,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ren.dr3v0l3thx3nm9r;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
